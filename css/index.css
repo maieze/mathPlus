@@ -116,6 +116,9 @@ main{
     margin: 20px auto 0 auto;
     transition: background-color 0.80s, color 0.3s;
 }
+.dentro{
+    display: none;
+}
 .clique:hover {
     background-color: #007BFF;
     color: white;
