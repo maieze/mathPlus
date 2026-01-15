@@ -165,7 +165,9 @@ img#foto-professor{
     padding: 10px;
 }
 .qualty{
-    display: block;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
     padding: 10px;
     background-color:#f0f0f0; 
     text-align: justify;
@@ -174,6 +176,11 @@ img#foto-professor{
     height: auto;
     border-radius: 20px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
+}
+.qualty img{
+    border-radius: 190px;
+    width: 150px;
+    height: 150px;
 }
 footer {
     background-color: #333333d5;
