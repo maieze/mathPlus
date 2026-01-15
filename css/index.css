@@ -119,6 +119,12 @@ main{
 .dentro{
     display: none;
 }
+.mensagem{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
 .clique:hover {
     background-color: #007BFF;
     color: white;
