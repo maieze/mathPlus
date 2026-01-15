@@ -184,7 +184,7 @@ footer {
     width: 100%;
 }
 .mais{
-    display: flex;
+    display: block;
     justify-content: center;
     gap: 20px;
     font-size: 12pt;
