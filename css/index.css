@@ -119,7 +119,7 @@ main{
 .dentro{
     display: none;
 }
-.mensagem{
+#mensagem{
     text-align: center;
     color: green;
     font-weight: bold;
