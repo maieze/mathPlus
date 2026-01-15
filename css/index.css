@@ -38,7 +38,7 @@ nav {
     text-decoration: none;
     font: optional;
     font-size: 14px;
-    transition: background-color 0.60s, border-radius 0.3s;
+    transition: background-color 1.10s, border-radius 1.3s;
 }
 .menu li a:hover {
     border-radius: 25px;
