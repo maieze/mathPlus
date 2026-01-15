@@ -1,0 +1,241 @@
+@charset "UTF-8";
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    background-image: url('../Images/background.jfif');
+    background-size: cover;
+}
+.topo{
+    background-color: #228cb6bb;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    width: 100%;
+}
+nav {
+    background-color: #333333e5;
+    overflow: hidden;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    float: left;
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li a:hover {
+    border-radius: 25px;
+    background-color: #1111118f;
+}
+img{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+}
+.conteiner {
+    margin-top: -162px;
+    padding: 20px;
+}
+video {
+    border-radius: 190px;
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+}
+video:hover {
+   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+
+}
+.conteudo {
+    padding: 20px;
+    max-width: 100%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.info {
+    border-radius: 10px;
+    border:1px solid #3333332c;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    justify-items: center;
+}
+main{
+    text-align: center;
+    color: #333;
+}
+.servicos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.servico {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 230px;
+    text-align: center;
+    transition: transform 1s, box-shadow 0.3s;
+}
+.servico:hover {
+    transform: translateY(10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.clique {
+    background-color: #33333344;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    width:150px;
+    color: #007BFF;
+    cursor: pointer;
+    margin: 20px auto 0 auto;
+    transition: background-color 0.80s, color 0.3s;
+}
+.clique:hover {
+    background-color: #007BFF;
+    color: white;
+}
+.brilho {
+    color: #333;
+    text-shadow: 0 0 5px rgba(0, 123, 255, 0.7);
+}
+.brilho:hover {
+    text-shadow: 0 0 10px rgba(0, 123, 255, 1);
+}
+img#foto-professor{
+    display: block;
+    border:none;
+    border-radius: 200px;
+    margin: 20px auto;
+    width:250px;
+    height: 250px;
+    margin-left: 15px;
+  
+}
+.professor{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 190px;
+}
+.professor h2{
+    text-align: center;
+    padding: 10px;
+}
+.qualty{
+    display: block;
+    padding: 10px;
+    background-color:#f0f0f0; 
+    text-align: justify;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
+}
+footer {
+    background-color: #333333d5;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.mais{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 12pt;
+    margin-top: 20px;
+    text-align: center;
+}
+.mais-info{
+    text-align: start;
+    padding: 10px;
+    color: #0073dfdc;
+}
+table{
+    margin: auto;
+    border: 1px solid #3333332c;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
+}
+table th, table td{
+    border: 1px solid #3333332c;
+    padding: 10px;
+    text-align: center;
+}
+table th{
+    background-color: #f0f0f0;
+}
+.contactar{
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
+    max-width: 100%;
+    height: auto;
+}
+.contactar a{
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
+}
+.contactar a:hover{
+    background-color: rgb(1, 90, 1);
+}
+button{
+    border-radius: 30px;
+    background-color: #79737357;
+    color: #fdfeff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 15pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background-color 0.80s, color 0.3s;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
+}
+button:hover{
+    background-color: #333333d1;
+    color: white;
+}
+.aula{
+    background-color: #1111111f;
+    font-weight: bold;
+    color: #24134dde;
+}
