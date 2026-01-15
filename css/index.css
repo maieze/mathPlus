@@ -6,6 +6,7 @@ body {
     background-color: #f5f5f5;
     background-image: url('../Images/background.jfif');
     background-size: cover;
+    font-size: 16px;
 }
 .topo{
     background-color: #228cb6bb;
@@ -13,7 +14,7 @@ body {
     padding: 10px 0;
     text-align: center;
     margin: auto;
-    font-size: 25px;
+    font-size: 20px;
     width: 100%;
 }
 nav {
@@ -36,6 +37,8 @@ nav {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font: optional;
+    font-size: 14px;
 }
 .menu li a:hover {
     border-radius: 25px;
@@ -45,7 +48,7 @@ img{
     display: block;
     margin: 20px auto;
     max-width: 100%;
-    width: 250px;
+    width: 20%;
     height: auto;
 }
 .conteiner {
@@ -57,7 +60,7 @@ video {
     display: block;
     margin: 20px auto;
     max-width: 100%;
-    width: 250px;
+    width: 10%;
     height: auto;
 }
 video:hover {
@@ -76,7 +79,7 @@ video:hover {
     border-radius: 10px;
     border:1px solid #3333332c;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.2;
     text-align: center;
     justify-items: center;
@@ -97,7 +100,8 @@ main{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 10px;
-    width: 230px;
+    width: 100%;
+    max-width: 300px;
     text-align: center;
     transition: transform 1s, box-shadow 0.3s;
 }
@@ -142,8 +146,9 @@ img#foto-professor{
     border:none;
     border-radius: 200px;
     margin: 20px auto;
-    width:250px;
-    height: 250px;
+    width:100%;
+    max-width: 150px;
+    height: 210px;
     margin-left: 15px;
   
 }
@@ -197,6 +202,8 @@ table{
     padding: 10px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
+    width: 100%;
+    font-size: 14px;
 }
 table th, table td{
     border: 1px solid #3333332c;
