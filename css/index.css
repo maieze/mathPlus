@@ -62,9 +62,10 @@ video {
     max-width: 100%;
     width: 20%;
     height: auto;
+    transition: transform 1s, box-shadow 01.3s;
 }
 video:hover {
-   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+   box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.3);
 
 }
 .conteudo {
